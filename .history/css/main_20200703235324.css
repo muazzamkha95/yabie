@@ -1,0 +1,116 @@
+/* Body */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #F8F9F9;
+    
+}
+
+/* Main navbar css */
+
+.topBar{
+
+    position: absolute;
+    width: 100%;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+    
+    background: linear-gradient(180deg, #04BC4E 0%, #15D57B 537.5%);
+}
+
+
+nav{
+    position: absolute;
+    width: 100%;
+    height: 143px;
+    left: 0px;
+    top: 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 6px rgba(219, 214, 214, 0.25);
+    padding-top: 20px;
+}
+
+.maincontainer{
+    width: 95%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.logo{
+    height: 100;
+}
+.btext{
+    font-weight: bold;
+    color: #04BC4E;
+}
+
+.boxshadow{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.categoryTab{
+    display: inline;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #FFFFFF;
+    color: #04BC4E;
+    border-radius: 10px;
+    margin-left: 60px;
+    padding-left: 30px;
+    
+
+}
+.keyboard_arrow_down_24px_rounded{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left:17px;
+    top: 22px;
+    transform: rotate(41.5deg);
+
+}
+
+/* Main section  */
+
+.mainSection{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+    
+   
+}
+
+
+.sectionTitle{
+
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #3E4153;
+}
+.sectionSeeAll{
+    color: #04BC4E;
+}
+/* Ad card  */
+
+.adcard{
+    height: 239px;
+    background: #FFFFFF;
+    padding: 10px;
+}
+.adTitle{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
