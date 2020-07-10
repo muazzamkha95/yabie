@@ -186,13 +186,3 @@ input{
     font-size: 30px;
     color:#04BC4E;
 }
-
-/* Email Designs */
-
-.card-btn{
-    width: 40%;
-    background-color:  #04BC4E;
-    color: white;
-    font-weight: bold;
-    margin-bottom: 0% !important;
-}

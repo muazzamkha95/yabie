@@ -189,10 +189,9 @@ input{
 
 /* Email Designs */
 
-.card-btn{
-    width: 40%;
+.login-btn{
+    width: 100%;
     background-color:  #04BC4E;
     color: white;
     font-weight: bold;
-    margin-bottom: 0% !important;
 }
