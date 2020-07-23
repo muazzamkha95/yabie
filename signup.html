@@ -13,53 +13,76 @@
 </head>
 <body>
         <div class="topBar"></div>
-        <nav class="navbar">
-            <div class="maincontainer">
-                <div class="row">
-                        <div class="col-md-2">
-                            <a href="index.html"><img src="images/YabieLogo.png" alt="Yabie Logo" class="logo"/></a>
-                        </div>
-                        <div class="col-md-7">
-                            <form class="form-inline" action="#">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Search for anything" required>
-                                    <select class="form-control border-right-0" required>
-                                        <option>All Categories</option>
-                                        <option value="a">A</option>
-                                        <option value="b">B</option>
-                                    </select>
-                                    <div class="input-group">
-                                        <div class="input-group-append">
-                                            <span class="input-group-text bg-white text-success border-right-0"><i class="fa fa-map-marker-alt"></i></span>
-                                        </div>
-                                        <input type="text" class="form-control border-left-0 border-right-0" placeholder="Abu Dhabi" required>
-                                        <div class="input-group-append">
-                                            <button type="submit" class="input-group-text"><i class="fa fa-search text-success"></i></button>
-                                        </div>
+        <div class="mainHeader">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    
+                    <a href="index.html " class="navbar-brand "><img src="images/Yabie2.svg" alt="Yabie Logo" class="logo"/></a>
+                    
+                    <button class="navbar-toggler " style="float: rights;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+    
+                    <form class="form-inline col-md-7 navSearch"  action="#">
+                        
+                            <div class="input-group">
+                                <input type="text" class="form-control border-right-0" placeholder="Search for anything" required>
+                                
+                                <select class="form-control border-right-0"  style="margin-left: 1px;" required>
+                                    <option>All Categories</option>
+                                    <option value="a">A</option>
+                                    <option value="b">B</option>
+                                </select>
+        
+                                <div class="input-group" style="margin-left: 1px;">
+                                    <div class="input-group-append" >
+                                        <span class="input-group-text bg-white text-success border-right-0 border-left-0"><i class="fa fa-map-marker" ></i></span>
+                                    </div>
+                                    <input type="text" class="form-control border-left-0 border-right-0" placeholder="Abu Dhabi" required>
+                                    <div class="input-group-append">
+                                        <button type="submit" class="input-group-text searchButton"><i class="fa fa-search text-success"></i></button>
                                     </div>
                                 </div>
-                            </form>
-                        </div>
-                        <div class="col-md-3" >
-                            <div class="row text-center">
-                                <span style="padding-top: 6px;">
-                                    <span class="btext"><a href="signup.html">Sign Up </a>  </span>  or <span class="btext"><a href="login.html">Log In</a></span>
-                                </span>
-                                
-                                <button class="btn btn-default btext pull-right boxshadow" style="margin-left: 10px;">Post Ad</button>
                             </div>
-                        </div>
+                        
+                       
+                    </form>
+                  
+                    
+    
+                    
+                    <div class="collapse navbar-collapse "  id="navbarSupportedContent">
+                        <ul class="navbar-nav" style="margin-right: auto; margin-left: auto;" >
+                            <li class="nav-item" style="margin-top: 5px;">
+                                <span class="btext"><a href="signup.html">Sign Up </a>  </span>  or <span class="btext"><a href="login.html">Log In</a></span>
+                            </li>
+                            <li class="nav-item">
+                                <button class="btn btn-default btext pull-right boxshadow" style="margin-left: 10px;">Post Ad</button>
+                            </li>
+                          </ul>
+                    </div>
+    
+                    
+    
+    
+                </div>
+                
+                
+            </nav>
+            <div style="background: white; padding-bottom: 20px;">
+                <div class="container CategoriesDiv" >
+                    <p><span class="categoryTab">Buy & Sell </span><i class="keyboard_arrow_down_24px_rounded fa fa-chevron-right "></i></p>
+                    <p><span class="categoryTab">Cars & Vehicles  </span><i class="keyboard_arrow_down_24px_rounded fa fa-chevron-right "></i></p>
+                    <p><span class="categoryTab">Real Estate </span><i class="keyboard_arrow_down_24px_rounded fa fa-chevron-right "></i></p>
+                    <p><span class="categoryTab">Services </span><i class="keyboard_arrow_down_24px_rounded fa fa-chevron-right "></i></p>
+                    <p><span class="categoryTab">Jobs</span><i class="keyboard_arrow_down_24px_rounded fa fa-chevron-right "></i></p>
                     
                 </div>
-                <div class="row mt-3" >
-                    <span class="categoryTab">Buy & Sell <i class="keyboard_arrow_down_24px_rounded fa fa-chevron-right "></i></span>
-                    <span class="categoryTab">Cars & Vehicles  <i class="keyboard_arrow_down_24px_rounded fa fa-chevron-right "></i></span>
-                    <span class="categoryTab">Real Estate <i class="keyboard_arrow_down_24px_rounded fa fa-chevron-right "></i></span>
-                    <span class="categoryTab">Services <i class="keyboard_arrow_down_24px_rounded fa fa-chevron-right "></i></span>
-                    <span class="categoryTab">Jobs <i class="keyboard_arrow_down_24px_rounded fa fa-chevron-right "></i></span>
-                </div>
             </div>
-        </nav>
+            
+
+        </div>
 
         <main  role="main" class="mainSectionLogin">
             <div class="container" >
